@@ -1,5 +1,24 @@
 .headercontainer{
-    background-color: maroon;
+    background-color: #590d22 ;
     width: 100%;
-    height: 30vh;
+    height: max-content;
+}
+.headertitle{
+    text-align: center;
+    color: white;
+    padding-top:20px !important;
+}
+.headertitle::before{
+    content: '------   ';
+}
+.headertitle::after{
+    content: '   ------';
+}
+.headerdesc{
+    text-align: center;
+    line-height: 1.5;
+    padding:20px !important;
+}
+.React-js{
+    color: white;
 }

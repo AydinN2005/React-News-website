@@ -2,27 +2,33 @@
     "leftsidebar" : [
         {
             "id" :"1" ,
-            "description" : "Why we should use React for website's client view ?" 
+            "description" : "Why we should use React for website's client view ?"  ,
+            "article" : "Now, the main question arises in front of us is why one should use React. There are so many open-source platforms for making the front-end web application development easier, like Angular. Let us take a quick look on the benefits of React over other competitive technologies or frameworks. With the front-end world-changing on a daily basis, it’s hard to devote time to learning a new framework – especially when that framework could ultimately become a dead end. So, if you're looking for the next best thing but you're feeling a little bit lost in the framework jungle, I suggest checking out React. 1. Simplicity  ReactJS is just simpler to grasp right away. The component-based approach, well-defined lifecycle, and use of just plain JavaScript make React very simple to learn, build a professional web (and mobile applications), and support it. React uses a special syntax called JSX which allows you to mix HTML with JavaScript. This is not a requirement; Developer can still write in plain JavaScript but JSX is much easier to use. 2. Easy to learn Anyone with a basic previous knowledge in programming can easily understand React while Angular and Ember are referred to as ‘Domain-specific Language’, implying that it is difficult to learn them. To react, you just need basic knowledge of CSS and HTML. 3. Native Approach React can be used to create mobile applications (React Native). And React is a diehard fan of reusability, meaning extensive code reusability is supported. So at the same time, we can make IOS, Android and Web applications. 4. Data Binding React uses one-way data binding and an application architecture called Flux controls the flow of data to components through one control point – the dispatcher. It's easier to debug self-contained components of large ReactJS apps. 5. Performance React does not offer any concept of a built-in container for dependency. You can use Browserify, Require JS, EcmaScript 6 modules which we can use via Babel, ReactJS-di to inject dependencies automatically. 6. Testability ReactJS applications are super easy to test. React views can be treated as functions of the state, so we can manipulate with the state we pass to the ReactJS view and take a look at the output and triggered actions, events, functions, etc."
         } 
         ,
         {
             "id" :"2" ,
-            "description" : "How is React latest update ?" 
+            "description" : "How is React latest update ?" ,
+            "article" : "When it’s released, React 18 will include out-of-the-box improvements (like automatic batching), new APIs (like startTransition), and a new streaming server renderer with built-in support for React.lazy. These features are possible thanks to a new opt-in mechanism we’re adding in React 18. It’s called “concurrent rendering” and it lets React prepare multiple versions of the UI at the same time. This change is mostly behind-the-scenes, but it unlocks new possibilities to improve both real and perceived performance of your app. If you’ve been following our research into the future of React (we don’t expect you to!), you might have heard of something called “concurrent mode” or that it might break your app. In response to this feedback from the community, we’ve redesigned the upgrade strategy for gradual adoption. Instead of an all-or-nothing “mode”, concurrent rendering will only be enabled for updates triggered by one of the new features. In practice, this means you will be able to adopt React 18 without rewrites and try the new features at your own pace."
         }
         ,
         {
             "id" :"3" ,
-            "description" : "What is Next.js ? is it frame work for React ?" 
+            "description" : "What is Next.js ? is it frame work for React ?" ,
+            "article" : "Next.js is an open-source development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites. React documentation mentions Next.js among Recommended Toolchains advising it to developers as a solution when Building a server-rendered website with Node.js.[4] Traditional React apps render all their content in the client-side browser, Next.js is used to extend this functionality to include applications rendered on the server side.  The copyright and trademarks for Next.js are owned by company Vercel (previously named ZEIT), which also maintains and leads its open-source development.[5] "
         }
         ,
         {
             "id" :"4" ,
-            "description" : "Json server in React" 
+            "description" : "Json server in React" ,
+            "article" : "JSON Server helps you to set up a REST API simply and quickly. As they report in the Github repository, you can create in less than 30 seconds."
         }
         ,
         {
             "id" :"5" ,
-            "description" : "What is React birthday ?" 
+            "description" : "What is React birthday ?" ,
+            "article" : "The Web Part Birthdays shows the upcoming birthdays in the company, the web part reads birthdays from a list located on the tenant's root site with title Birthdays Now is possible to the user select an image for the background in the properties of the web part. There is an Azure function available that get AAD user birthdays, this function creates a list on the tenant root site, if it does not exist. See the local.settings.json for details on the required application variable located in SyncUsersBirthdaysFunction folder. But you can synchronize the Birthdays list with other applications HR Systems, or other sources"
         }
     ]
+    
 }

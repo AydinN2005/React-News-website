@@ -1,7 +1,7 @@
 .containerleftsidebar{
     background-color: #800F2F;
     height: max-content;
-    width: max-content;
+    width: 75%;
     border-bottom-right-radius: 20px;
 }
 .links{

@@ -3,13 +3,14 @@ import React from 'react';
 import { Routes , Route , BrowserRouter} from 'react-router-dom';
 import Header from './Component/Header';
 import LeftSideBar from './Component/LeftSideBar';
+import Main from './Component/Main';
 import './style.css'
 const App = () => {
     return (
         <div>
           <BrowserRouter>
             <Routes>
-              <Route path='/' element={<div><Header/><LeftSideBar/></div>}/>
+              <Route path='/' element={<div><Header/><div style={{display:'flex'}}><LeftSideBar/><Main/></div></div>}/>
           </Routes>
           </BrowserRouter>
         </div>

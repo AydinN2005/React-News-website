@@ -8,3 +8,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+const btn  = document.getElementById("react-burger-menu-btn");
+btn.style.width = "5%";
+btn.style.height = "10%";
+btn.hover()

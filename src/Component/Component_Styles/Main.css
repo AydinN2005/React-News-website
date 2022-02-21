@@ -1,9 +1,15 @@
 .maincontainer{
     width: 100%;
     height: max-content;
+    overflow-y: auto;
+    padding:5px 20px;
 }
 .articletext{
     padding : 15px;
     line-height: 1.5;
-    
+}
+.articlebox{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    width: 100% ;
 }

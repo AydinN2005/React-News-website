@@ -1,24 +1,48 @@
-.headercontainer{
-    background-color: #590d22 ;
+.headercontainer {
+    background-color: #590d22;
     width: 100%;
     height: max-content;
 }
-.headertitle{
+
+.headertitle {
     text-align: center;
     color: white;
-    padding-top:20px !important;
+    padding-top: 20px !important;
 }
-.headertitle::before{
+
+.headertitle::before {
     content: '------   ';
 }
-.headertitle::after{
+
+.headertitle::after {
     content: '   ------';
 }
-.headerdesc{
+
+.headerdesc {
     text-align: center;
     line-height: 1.5;
-    padding:20px !important;
+    padding: 20px !important;
 }
-.React-js{
+
+.React-js {
     color: white;
+}
+
+.humburgercontainer {
+    padding: 5px 20px;
+    color: white;
+    font-size: 2rem;
+    height: 100%;
+    align-self: center;
+}
+
+.menu:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.openstyle {
+    height: 100%;
+    background-color: rgb(16, 3, 29);
+    display: none;
 }

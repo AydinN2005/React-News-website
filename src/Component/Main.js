@@ -17,7 +17,7 @@ const Main = () => {
         <div className='maincontainer'>
             {console.log(article)}
             {article.map((item, index) => {
-                return <p className='articletext font--size--md' key={index}>{item.article}</p>
+                return <div className='articlebox' key={index}> <p className='articletext font--size--md' key={index}>{item.article}</p> </div>
             })}
         </div>
     );

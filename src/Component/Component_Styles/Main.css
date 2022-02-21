@@ -2,3 +2,8 @@
     width: 100%;
     height: max-content;
 }
+.articletext{
+    padding : 15px;
+    line-height: 1.5;
+    
+}

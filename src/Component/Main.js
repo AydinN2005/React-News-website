@@ -1,19 +1,24 @@
 import React, { useState } from 'react';
-import { GetleftsidebarData } from '../_api/GetleftsidebarData';
+import { GetArticleById } from '../_api/GetArticleById'
 import './Component_Styles/Main.css'
+
 const Main = () => {
-    const [article , setArticle] = useState();
-    React.useEffect(()=>{
-        GetleftsidebarData((isOk , data)=>{
-            if(!isOk)
-            alert("We can't found this article ! may it deleted .")
+    const [article, setArticle] = useState([]);
+    React.useEffect(() => {
+        GetArticleById((isOk, data) => {
+            if (!isOk)
+                alert(data)
             else
-            setArticle(data) 
+                setArticle(data)
+                console.log(data)
         })
-    } , [])
+    }, [])
     return (
         <div className='maincontainer'>
-            
+            {console.log(article)}
+            {article.map((item, index) => {
+                return <p className='articletext font--size--md' key={index}>{item.article}</p>
+            })}
         </div>
     );
 };
